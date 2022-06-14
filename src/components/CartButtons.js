@@ -7,9 +7,10 @@ import { useCartContext } from "../context/cart_context";
 import { useUserContext } from "../context/user_context";
 
 const CartButtons = () => {
+  const {  closeSidebar } = useProductsContext()
   return (
     <Wrapper className="cart-btn-wrapper">
-      <Link to="/cart" className="cart-btn">
+      <Link to="/cart" className="cart-btn" onClick={closeSidebar}>
         Panier
         <span className="cart-container">
           <FaShoppingCart></FaShoppingCart>
@@ -42,6 +43,7 @@ const Wrapper = styled.div`
     display: flex;
     align-items: center;
     position: relative;
+    margin-right:10px;
     svg {
       height: 1.6rem;
       margin-left: 5px;
@@ -71,7 +73,7 @@ const Wrapper = styled.div`
     cursor: pointer;
     color: var(--clr-grey-1);
     letter-spacing: var(--spacing);
-    margin-left:15px;
+    margin-left:5px;
     svg {
       margin-left: 5px;
     }

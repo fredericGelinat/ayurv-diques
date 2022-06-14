@@ -1,11 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import heroBcg from '../assets/hero-bcg.jpeg'
-import heroBcg2 from '../assets/hero-bcg-2.jpeg'
+import massage4 from '../assets/massage4.webp'
+import ayurvedique from '../assets/ayurvedique-1.webp'
 
 const Hero = () => {
-  return <h4>hero</h4>
+  return <Wrapper className='section-center'>
+    <article className='content'>
+      <h1>
+        Massages Ayurvédiques<br />
+        de tradition indienne
+      </h1>
+      <p>
+        Médecine traditionnelle indienne
+      </p>
+      <Link to='/products' className='btn hero-btn'>
+        SHOP NOW
+      </Link>
+    </article>
+    <article className='img-container'>
+      <img src={massage4} alt='nice table' className='main-img' />
+      <img src={ayurvedique} alt='person working' className='accent-img' />
+    </article>
+  </Wrapper>
 }
 
 const Wrapper = styled.section`

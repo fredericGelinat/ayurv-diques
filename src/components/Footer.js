@@ -4,7 +4,7 @@ const Footer = () => {
   return (<Wrapper>
     <h5>
       &copy;{new Date().getFullYear()}
-      <span> MassageAyurvédiques</span>
+      <span> Massages Ayurvédiques</span>
     </h5>
     <h5>Tous droits réservés</h5>
   </Wrapper>)
