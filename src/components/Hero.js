@@ -1,18 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import massage4 from '../assets/massage4.webp'
-import ayurvedique from '../assets/ayurvedique-1.webp'
+import massage4 from '../assets/img/filigrane/imgClassees/rvbElektropaints/RVB-elektropaints/carre/granit/carre-1.webp'
+
+
+import ayurvedique from '../assets/img/filigrane/imgClassees/rvbElektropaints/RVB-elektropaints/carre/passionata/Passionata-80x80cm.webp'
 
 const Hero = () => {
   return <Wrapper className='section-center'>
     <article className='content'>
       <h1>
-        Massages Ayurvédiques<br />
-        de tradition indienne
+        Peintures à<br />
+        l'électricité
       </h1>
       <p>
-        Médecine traditionnelle indienne
+       Hélène Glaziou, artiste plasticienne
       </p>
       <Link to='/products' className='btn hero-btn'>
         SHOP NOW

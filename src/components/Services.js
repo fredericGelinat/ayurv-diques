@@ -8,10 +8,10 @@ const Services = () => {
       <div className="section-center">
         <article className="header">
           <h3>
-            tisanes bio <br />
-            concoctées pour vous
+            Tableaux numériques<br />
+            où rayonnent les couleurs 
           </h3>
-          <p>blablalalalalalalallal</p>
+          <p>Diplômée de l’École des beaux arts de Rennes, mon projet artistique s’articule autour des nouvelles technologies, de l’oeuvre numérique et de la diffusion de l’art contemporain. Je fais partie de ceux qui ont vu arriver la révolution numérique, le digital painting et les outils numériques qui ont transformée ma pratique. Je tente de porter un regard de peintre ou d’ artiste numérique sur ce nouveau monde dont on ne perçoit plus parfois les frontières du réel et du virtuel.</p>
         </article>
         <div className="services-center">
           {services.map((service) => {

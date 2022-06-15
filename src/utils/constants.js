@@ -22,23 +22,24 @@ export const services = [
   {
     id: 1,
     icon: <GiCompass />,
-    title: 'mission',
+    title: 'Galerie.2.0',
     text:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+      " A travers un parcours sensible, rassemblant mon travail de plusieurs centaines d'oeuvres aussi bien en peintures, qu’en aquarelles et en vidéos, ce site fonctionne comme une galerie et vous invite à découvrir les délices du monde numérique, de la création artistique, et des nouveaux médias",
   },
   {
     id: 2,
     icon: <GiDiamondHard />,
-    title: 'vision',
+    title: 'Vision',
     text:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+      "Rendre visible l’invisible en donnant à chaque matière leur identité et en extraire l’essentiel. L’univers digital est, dans mon processus de création, un langage familier qui me propose de contraster, d’incruster, de filigraner tout en jonglant avec une palette aux millions de couleurs! "
+,
   },
   {
     id: 3,
     icon: <GiStabbedNote />,
-    title: 'history',
+    title: 'Création',
     text:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+      " Acrylique et huile sur  papier Canson, pastel écrasée sur papier kraft, encre sur buvard, papier bulle, tissus velours ou cuir conjugués avec les circuits imprimés, puces électroniques et diode décortiqués de mon premier PC amstrad, je zoome dans «l’échantillon de matière», afin d’éxacerber son identité.",
   },
 ]
 

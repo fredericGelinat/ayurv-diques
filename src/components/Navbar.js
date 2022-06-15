@@ -55,6 +55,7 @@ const NavContainer = styled.nav`
     img {
       width: 95px;
       margin-left: -15px;
+      margin-top:25px;
     }
   }
   .nav-toggle {
