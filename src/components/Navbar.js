@@ -47,13 +47,15 @@ const NavContainer = styled.nav`
     width: 90vw;
     margin: 0 auto;
     max-width: var(--max-width);
+
   }
   .nav-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  
     img {
-      width: 95px;
+      width: 75px;
       margin-left: -15px;
       margin-top:25px;
     }

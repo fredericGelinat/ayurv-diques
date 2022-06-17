@@ -11,22 +11,11 @@ const Contact = () => {
             Passionnée de peinture depuis mon enfance, l’idée d’un nouveau
             langage me réjouit. A travers mes «Peintures à l’électricité» vous
             découvrirez mon univers poétique où l’énergie des couleurs rayonne.
+            Passionnée de peinture depuis mon enfance, l’idée d’un nouveau
+            langage me réjouit. A travers mes «Peintures à l’électricité» vous
+            découvrirez mon univers poétique où l’énergie des couleurs rayonne.
           </p>
-          {/* <form
-            className="contact-form"
-            action="https://formspree.io/f/xgedqqlr"
-            method="POST"
-          >
-            <input
-              type="email"
-              className="form-input"
-              placeholder="Entrez votre email"
-              name="_replyto"
-            />
-            <button type="submit" className="submit-btn">
-              Valider
-            </button>
-          </form> */}
+         
           <div className="contact">
             <form name="contact" method="post" className="contact_form"
               data-netlify="true"
@@ -43,7 +32,8 @@ const Contact = () => {
               
             
                 <label for="message">
-                  Message:  </label><textarea name="message"></textarea>
+                Message:  </label>
+              <textarea name="message"></textarea>
                
               
             
@@ -51,7 +41,7 @@ const Contact = () => {
               
             </form>
           </div>
-          ,
+          
         </div>
       </div>
     </Wrapper>
@@ -90,6 +80,21 @@ const Wrapper = styled.section`
   }
   .contact_form button {
     font-size: 1.2rem;
+    background: var(--clr-primary-5);
+    color: var(--clr-black);
+     border-top-right-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    cursor: pointer;
+    transition: var(--transition);
+
+  }
+  .contact_form button:hover{
+    color: var(--clr-white);
+  }
+  .contact_form textarea{
+    height: 10em;
   }
   .form-input,
   .submit-btn {
@@ -128,7 +133,7 @@ const Wrapper = styled.section`
       grid-template-columns: 1fr 1fr;
       align-items: center;
       gap: 8rem;
-      margin-top: 2rem;
+      margin-top: -5rem;
     }
     p {
       margin-bottom: 0;
